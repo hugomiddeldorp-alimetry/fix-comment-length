@@ -5,8 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "fix-comment-length"
 dynamic = ["version"]
+dependencies = []
 
-[project-scripts]
+[project.scripts]
 fcl = "fixcommentlength:main"
 
 [tool.setuptools.dynamic]
